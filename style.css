@@ -3,34 +3,101 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    background-image: url(\img\desktop-wallpaper-minecraft-block-grass-block.jpg );
+    background-color: #4ba298;
+    color:white;
 }
 
 header {
-    background-color: #333;
-    color: white;
+    background-color: #289825;
+    color: rgb(0, 0, 0);
     padding: 1em 0;
     text-align: center;
-}
 
-nav ul {
-    list-style: none;
-    padding: 0;
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 15px;
+    list-style-type: none;
+    
+   
 }
 
-nav ul li a {
-    color: white;
+nav ul li :hover {
+    background: #54c493; 
+}
+
+nav a {
     text-decoration: none;
 }
 
-main {
+h1 {
+    background-color: #109009;
+    color: #ffffffc0;
+    width: 500px;
+    margin: 20px auto;
     padding: 20px;
+    border: 5px;
+    font-size: 200%;
+    text-align: center;
+}
+
+h2 {
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px dotted #000000;
+    border-left: 10px solid #000000;
+    color: #ffffff;
+}
+
+#contents {
+    margin: 50px;
+    padding: 40px 80px;
+    border: 5px solid #000000;
+    background-color: hsl(0, 0%, 59%);
+}
+
+#contents1 {
+    margin: 50px;
+    padding: 40px 80px;
+    border: 5px solid #000000;
+    background-color: hsl(0, 0%, 59%);
+}
+
+#contents2 {
+    margin: 50px;
+    padding: 40px 80px;
+    border: 5px solid #000000;
+    background-color: hsl(0, 0%, 59%);
+}
+
+#contents3 {
+    margin: 50px;
+    padding: 50px 80px;
+    border: 5px solid #000000;
+    background-color: hsl(0, 0%, 59%);
+}
+
+section h3 {
+    border-bottom: none;
+    padding-bottom: 10px;
+    color: #cde22d;
+}
+
+main {
+    padding: 2em;
+    background: rgba(255, 255, 255, 0.8); 
+    border-radius: 10px;
+    margin: 2em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+
+a {
+    color: #ffffffc0;
 }
 
 section {
@@ -40,13 +107,6 @@ section {
 section h2 {
     border-bottom: 2px solid #333;
     padding-bottom: 10px;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 10px 0;
 }
 
 footer {
